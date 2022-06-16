@@ -24,7 +24,8 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
     } catch (e) {
         res.statusCode = 500;
         res.setHeader('Content-Type', 'text/html');
-        res.end('<h1>Internal Error</h1><p>Sorry, there was a problem</p>');
+        res.end(`<h1>Internal Error</h1><p>${e}</p>`);
+        
         console.error(e);
     }
 }
