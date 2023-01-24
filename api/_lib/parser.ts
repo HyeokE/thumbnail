@@ -56,10 +56,8 @@ function getDefaultImages(images: string[], theme: Theme): string[] {
         : 'https://morethan-log.vercel.app/avatar.svg';
 
     if (!images || !images[0]) {
+        console.log('no images');
         return [defaultImage];
-    }
-    if (!images[0].startsWith('https://assets.vercel.com/') && !images[0].startsWith('https://assets.zeit.co/')) {
-        images[0] = defaultImage;
     }
     return images;
 }
