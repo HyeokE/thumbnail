@@ -147,14 +147,14 @@ const markdownOptions: DropdownOption[] = [
 
 const imageLightOptions: DropdownOption[] = [
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg' },
-    { text: 'sign', value: `http://localhost:3000/sign.svg` },
+    { text: 'sign', value: `${window.origin}/sign.svg` },
     {text:"jason blog", value: `${window.origin}/icon.svg`},
     {text:"gdsc", value: `${window.origin}/logo512.png`}
 ];
 
 const imageDarkOptions: DropdownOption[] = [
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg' },
-    { text: 'sign', value: `http://localhost:3000/sign.svg` },
+    { text: 'sign', value: `${window.origin}/sign.svg` },
     { text:"jason blog", value: `${window.origin}/icon.svg`},
     {text:"gdsc", value: `${window.origin}/logo512.png`}
 ];
