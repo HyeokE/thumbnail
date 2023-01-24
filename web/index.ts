@@ -131,6 +131,7 @@ const themeOptions: DropdownOption[] = [
 const fileTypeOptions: DropdownOption[] = [
     { text: 'PNG', value: 'png' },
     { text: 'JPEG', value: 'jpeg' },
+    {text: "SVG", value:"svg"},
 ];
 
 const fontSizeOptions: DropdownOption[] = Array
@@ -145,16 +146,17 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
-    { text: 'Vercel', value: 'https://morethan-log.vercel.app/avatar.svg' },
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg' },
-    { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg' },
+    { text: 'sign', value: `http://localhost:3000/sign.svg` },
+    {text:"jason blog", value: `${window.origin}/icon.svg`},
+    {text:"gdsc", value: `${window.origin}/logo512.png`}
 ];
 
 const imageDarkOptions: DropdownOption[] = [
-
-    { text: 'Vercel', value: 'https://morethan-log.vercel.app/avatar.svg' },
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg' },
-    { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-bw-logo.svg' },
+    { text: 'sign', value: `http://localhost:3000/sign.svg` },
+    { text:"jason blog", value: `${window.origin}/icon.svg`},
+    {text:"gdsc", value: `${window.origin}/logo512.png`}
 ];
 
 
