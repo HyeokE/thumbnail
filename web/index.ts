@@ -147,16 +147,23 @@ const markdownOptions: DropdownOption[] = [
 
 const imageLightOptions: DropdownOption[] = [
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg' },
-    { text: 'sign', value: `${window.origin}/sign.svg` },
-    {text:"jason blog", value: `${window.origin}/icon.svg`},
-    {text:"gdsc", value: `${window.origin}/logo512.png`}
+    { text: 'sign', value: `${window.origin}/assets/hyeokSign.svg` },
+    { text: "blog", value: `${window.origin}/assets/blogIcon.svg`},
+    { text: "gdsc", value: `${window.origin}/assets/gdscLogo.png`},
+    { text: "apple", value: `${window.origin}/assets/appleLogo.webp`},
+    { text: "JavaScript", value: `${window.origin}/assets/javaScriptIcon.png`},
+    { text: "React", value: `${window.origin}/assets/React.png`},
 ];
 
 const imageDarkOptions: DropdownOption[] = [
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg' },
-    { text: 'sign', value: `${window.origin}/sign.svg` },
-    { text:"jason blog", value: `${window.origin}/icon.svg`},
-    {text:"gdsc", value: `${window.origin}/logo512.png`}
+    { text: 'sign', value: `${window.origin}/assets/hyeokSign.svg` },
+    { text: "blog", value: `${window.origin}/assets/blogIcon.svg`},
+    { text: "gdsc", value: `${window.origin}/assets/gdscLogo.png`},
+    { text: "apple", value: `${window.origin}/assets/appleLogo.webp`},
+    { text: "JavaScript", value: `${window.origin}/assets/javaScriptIcon.png`},
+    { text: "React", value: `${window.origin}/assets/React.png`},
+
 ];
 
 
